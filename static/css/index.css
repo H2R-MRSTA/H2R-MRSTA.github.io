@@ -286,6 +286,11 @@ body {
   margin: 0;
 }
 
+.grad_text {
+  background: -webkit-linear-gradient(right, #003f5c, #58508d, #bc5090, #ff6361, #ffa600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .interpolation-panel {
   background: #f5f5f5;
